@@ -1,0 +1,523 @@
+*{
+    list-style: none;
+}
+
+
+.mynav {
+    
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+.logo {
+    color: #fff;
+    padding-left: 20px;
+    
+}
+
+
+.logo:hover {
+    color: white;
+}
+
+.navbar .bo {
+    color: white;
+}
+.font {
+    font-size: 23;
+}
+.fontlog {
+    font-size: 23;
+}
+
+.navbar .bo:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+.gr2 .gr {
+    color: black;
+}
+
+.gr2 .gr:hover {
+    color: black;
+}
+
+
+/* End of navbar */
+
+
+
+
+#Home {
+    background-image:  linear-gradient(#00000091,#0000009e),url("../images/hero-bg.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+#Home .holder .text h1 {
+    color: white;
+    font-size: 72;
+}
+#Home .holder .text {
+    text-align: center;
+}
+
+#Home .holder .text span {
+    color: white;
+    font-size: 40;
+    
+    
+}
+
+#ABOUT  {
+    background-color:#F5F5F5;
+}
+
+
+#ABOUT h2 {
+    position: relative;
+}
+
+#ABOUT h2::after {
+    
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #09c;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+
+#services .text {
+    text-align: center;
+}
+
+
+
+#services {
+    background: #F5F5F5;
+}
+
+
+
+
+#services  .d {
+    text-align: center;
+}
+
+
+#services .aft {
+    position: relative;
+}
+
+
+
+#services .aft::after {
+
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #09c;
+    position: absolute;
+    top: 110%;
+    left: 49%;
+
+}
+
+
+#services i {
+    font-size: 30px;
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    border: 8px solid #0078FF ;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#services i:hover {
+    background-color: #0077ffb7;
+    color: white;
+    border: 8px solid #C5DDF9 !important;
+
+}
+
+
+/* end of services */
+
+
+
+
+#serv {
+    background-image:  linear-gradient(#0458b89e,#0458b8a5),url("../images/counters-bg.jpg");
+    background-attachment: fixed;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+
+
+
+#serv i {
+    font-size: 30px;
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    border: 8px solid rgba(255, 255, 255, 0.704);
+    border-radius: 50%;
+}
+
+#serv .ic {
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+    
+
+
+
+
+
+/* end of serv */
+
+
+
+#port{
+    background-color: #F5F5F5;
+}
+#port i {
+    
+    /* padding: 6px; */
+    padding-left: 7px;
+    padding-top: 7px;
+    width: 40px;
+    height:40px;
+    border: 5px solid #09c;
+    border-radius: 50%;
+    
+}
+
+
+#port .textand {
+    background-color: white;
+    padding: 5px;
+}
+
+#port .portp {
+    position: relative;
+}
+
+
+#port .insiderspan {
+    color: #277BDB;
+}
+
+#port .portp::after {
+
+    
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #09c;
+    position: absolute;
+    top: 110%;
+    left: 49%;
+    
+}
+#port img {
+    transition: all 2s;
+}
+#port img:hover {
+    transform: scale(1.4);
+}
+
+
+/* end of port */
+
+
+
+
+#slider {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.577),rgba(0, 0, 255, 0.577)) ,url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+#slider .slidpad{
+    padding: 10%;
+}
+#slider img {
+    border-radius: 50%;
+}
+
+
+
+
+
+.carousel-indicators [data-bs-target] {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+
+
+
+/* end of the slider */
+
+
+
+
+
+
+
+#BLOG .textblog h2 {
+    font-weight: 800;
+}
+
+
+
+
+#BLOG .textblog p {
+position: relative;
+}
+
+
+
+
+#BLOG .textblog p::after {
+
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #09c;
+    position: absolute;
+    top: 110%;
+    left: 49%;
+
+}
+
+
+
+.www {
+    width: 100%;
+}
+
+
+
+.wwe {
+    width: 100%;
+}
+
+
+
+
+#BLOG .holder .one img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+#BLOG .holder {
+    border-top: 1px solid rgba(0, 0, 0, 0.711);
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#BLOG h3 {
+    transition: all 1s;
+}
+
+#BLOG h3:hover {
+    color: #0078FF;
+}
+
+
+#BLOG .man {
+    transition: all 1s;
+}
+
+
+#BLOG .man:hover {
+    color: #0078FF;
+}
+
+
+#BLOG .ph{
+border: 1px solid rgba(128, 128, 128, 0.616);
+position: relative;
+}
+
+
+
+#BLOG .phh {
+    position: relative;
+}
+
+
+#BLOG .ph::after {
+content: "travel";
+background-color: #3393FF;
+position: absolute;
+top: 93%;
+left: 43%;
+border-radius: 10px;
+padding: 5px;
+color: white;
+}
+
+
+
+
+#BLOG .phh::after {
+    content: "web design";
+    background-color: #3393FF;
+    position: absolute;
+    top: 93%;
+    left: 43%;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    }
+
+
+/* #BLOG .after::after {
+content: "web design";
+background-color: #3393FF;
+position: absolute;
+top: 53%;
+left: 40%;
+border-radius: 10px;
+padding: 5px;
+color: white;
+} */
+
+
+
+
+/* end of the blog */
+
+
+
+
+#Contact {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.577),rgba(0, 0, 255, 0.577)) ,url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    /* height: 75vh; */
+}
+
+
+
+
+#Contact .width-of-input {
+   width: 100%;
+}
+
+
+#Contact .width-of-textarear {
+    width: 100%;
+    
+}
+
+
+
+#Contact .but {
+    background-color: #0078FF ;
+    color: white;
+    border: 1px solid #3393FF;
+    
+    
+}
+
+
+#Contact .but:hover {
+    background-color: #3393FF;
+    
+}
+
+#Contact p i  {
+    color: #3393FF;
+  
+}
+
+
+#Contact li i {
+    font-size: 20px;
+    /* padding-top: 10px; */
+    width: 40px;
+    height: 40px;
+    border: 3px solid #0078FF ;
+    border-radius: 50%;
+    /* padding-left: 10px; */
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#Contact li i:hover {
+    background-color: #0078FF ;
+    color: white;
+}
+
+
+   
+
+
+#Contact .h2p {
+position: relative;
+}
+
+
+
+#Contact .h2p::after {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #09c;
+    position: absolute;
+    top: 85%;
+    left: 0%;
+}
+
+#footer {
+     background-color:  rgb(4, 62, 127);
+    color: white;
+}
+
+
+#footer span {
+    font-weight: 600;
+}
